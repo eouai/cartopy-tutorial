@@ -15,6 +15,7 @@ def version(pkg):
     except ImportError:
         print(FAIL, '%s not installed' % pkg)
 
+
 try:
     import curses
     curses.setupterm()
